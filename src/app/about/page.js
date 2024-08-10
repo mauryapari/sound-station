@@ -17,8 +17,8 @@ export default function About() {
 
             <p className="mt-12 w-[80%] mx-auto text-gray-600 hover:text-gray-700 transition-all duration-200">
               Your ultimate destination for everything headphones. Whether
-              you're an audiophile, a casual listener, or a tech enthusiast,
-              we've got you covered. Here, you'll find the latest news, in-depth
+              you&apos;re an audiophile, a casual listener, or a tech enthusiast,
+              we&apos;ve got you covered. Here, you&apos;ll find the latest news, in-depth
               device specifications, and comprehensive articles that explore
               every aspect of the headphone world.
             </p>
@@ -32,7 +32,7 @@ export default function About() {
               Our mission is to be your go-to resource for all things
               headphones—providing you with valuable insights, expert reviews,
               and links to helpful materials that enhance your audio experience.
-              Have questions or suggestions? We'd love to hear from you. Feel
+              Have questions or suggestions? We&apos;d love to hear from you. Feel
               free to reach out and connect with us.{" "}
             </p>
           </CardContent>
