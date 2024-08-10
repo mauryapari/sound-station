@@ -1,0 +1,72 @@
+[
+    {
+      "name": "HyperX Cloud II",
+      "slug": "hyperx-cloud-ii",
+      "price": 99.99,
+      "details": "Immersive gaming headset with 7.1 surround sound",
+      "image": "/assets/headphones_a_2.webp"
+    },
+    {
+      "name": "SteelSeries Arctis 7",
+      "slug": "steelseries-arctis-7",
+      "price": 149.99,
+      "details": "Wireless gaming headset with 15-hour battery life",
+      "image": "/assets/headphones_a_3.webp"
+    },
+    {
+      "name": "Turtle Beach Recon 200",
+      "slug": "turtle-beach-recon-200",
+      "price": 59.99,
+      "details": "Gaming headset with flip-up mic and 12-hour battery life",
+      "image": "/assets/speaker3.webp"
+    },
+    {
+      "name": "Razer Opus 7",
+      "slug": "razer-opus-7",
+      "price": 199.99,
+      "details": "Gaming headset with THX audio and customizable lighting",
+      "image": "/assets/headphones_a_4.webp"
+    },
+    {
+      "name": "Logitech G Pro X",
+      "slug": "logitech-g-pro-x",
+      "price": 129.99,
+      "details": "Professional gaming headset with advanced audio technology",
+      "image": "/assets/headphones_b_2.webp"
+    },
+    {
+      "name": "Sony WF-1000XM4",
+      "slug": "sony-wf-1000xm4",
+      "price": 229.99,
+      "details": "Wireless earbuds with industry-leading noise cancellation",
+      "image": "/assets/earphones_a_3.webp"
+    },
+    {
+      "name": "Sennheiser Momentum True Wireless",
+      "slug": "sennheiser-momentum-true-wireless",
+      "price": 299.99,
+      "details": "Wireless earbuds with advanced audio technology and sleek design",
+      "image": "/assets/earphones_a_2.webp"
+    },
+    {
+      "name": "Beats Powerbeats Pro 2",
+      "slug": "beats-powerbeats-pro-2",
+      "price": 199.99,
+      "details": "Wireless earbuds with long battery life and sleek design",
+      "image": "/assets/earphones_b_2.webp"
+    },
+    {
+      "name": "Bose QuietComfort Earbuds",
+      "slug": "bose-quietcomfort-earbuds",
+      "price": 249.99,
+      "details": "Wireless earbuds with advanced noise cancellation and comfort fit",
+      "image": "/assets/earphones_b_4.webp"
+    },
+    {
+      "name": "Anker Soundcore Liberty 2 Pro",
+      "slug": "anker-soundcore-liberty-2-pro",
+      "price": 149.99,
+      "details": "Wireless earbuds with long battery life and affordable price",
+      "image": "/assets/speaker3.webp"
+    }
+]
