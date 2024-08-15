@@ -6,11 +6,11 @@ import {
   NavigationMenuList,
   NavigationMenuLink,
 } from "@/components/ui/navigation-menu";
-import { Headphones, Heart, Menu, ShoppingCart } from "lucide-react";
+import { Headphones, Heart, Menu, ShoppingCart, Waves } from "lucide-react";
 
 export default function Header() {
   return (
-    <header className="container flex h-20 w-full shrink-0 items-center px-4 md:px-6">
+    <header className="container flex h-20 w-full justify-between shrink-0 items-center px-4 md:px-6">
       <Sheet>
         <SheetTrigger asChild>
           <Button variant="outline" size="icon" className="lg:hidden">
@@ -20,8 +20,11 @@ export default function Header() {
         </SheetTrigger>
         <SheetContent side="left">
           <Link href="/" prefetch={false}>
-            <Headphones className="h-6 w-6" />
-            <span className="sr-only">ShadCN Inc</span>
+          <div className="flex gap-2">
+            <Waves className="h-6 w-6" />
+            <span>Beautya</span>
+          </div>
+            <span className="sr-only">Beautya Inc</span>
           </Link>
           <div className="grid gap-2 py-6">
             <Link
@@ -56,8 +59,11 @@ export default function Header() {
         </SheetContent>
       </Sheet>
       <Link href="/" className="mr-6 hidden lg:flex" prefetch={false}>
-        <Headphones className="h-6 w-6" />
-        <span className="sr-only">ShadCN Inc</span>
+        <div className="flex gap-2 items-center">
+            <Waves className="h-6 w-6" />
+            <span className="text-xl">Beautya</span>
+          </div>
+        <span className="sr-only">Beautya Inc</span>
       </Link>
       <NavigationMenu className="hidden lg:flex">
         <NavigationMenuList>
@@ -99,7 +105,7 @@ export default function Header() {
           </NavigationMenuLink>
         </NavigationMenuList>
       </NavigationMenu>
-      <div className="ml-auto flex gap-6">
+      <div className="flex gap-6">
         <Link href="/cart">
           <ShoppingCart className="h-6 w-6" />
         </Link>

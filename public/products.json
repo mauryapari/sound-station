@@ -1,72 +1,151 @@
 [
-    {
-      "name": "HyperX Cloud II",
-      "slug": "hyperx-cloud-ii",
-      "price": 99.99,
-      "details": "Immersive gaming headset with 7.1 surround sound",
-      "image": "/assets/headphones_a_2.webp"
-    },
-    {
-      "name": "SteelSeries Arctis 7",
-      "slug": "steelseries-arctis-7",
-      "price": 149.99,
-      "details": "Wireless gaming headset with 15-hour battery life",
-      "image": "/assets/headphones_a_3.webp"
-    },
-    {
-      "name": "Turtle Beach Recon 200",
-      "slug": "turtle-beach-recon-200",
-      "price": 59.99,
-      "details": "Gaming headset with flip-up mic and 12-hour battery life",
-      "image": "/assets/speaker3.webp"
-    },
-    {
-      "name": "Razer Opus 7",
-      "slug": "razer-opus-7",
-      "price": 199.99,
-      "details": "Gaming headset with THX audio and customizable lighting",
-      "image": "/assets/headphones_a_4.webp"
-    },
-    {
-      "name": "Logitech G Pro X",
-      "slug": "logitech-g-pro-x",
-      "price": 129.99,
-      "details": "Professional gaming headset with advanced audio technology",
-      "image": "/assets/headphones_b_2.webp"
-    },
-    {
-      "name": "Sony WF-1000XM4",
-      "slug": "sony-wf-1000xm4",
-      "price": 229.99,
-      "details": "Wireless earbuds with industry-leading noise cancellation",
-      "image": "/assets/earphones_a_3.webp"
-    },
-    {
-      "name": "Sennheiser Momentum True Wireless",
-      "slug": "sennheiser-momentum-true-wireless",
-      "price": 299.99,
-      "details": "Wireless earbuds with advanced audio technology and sleek design",
-      "image": "/assets/earphones_a_2.webp"
-    },
-    {
-      "name": "Beats Powerbeats Pro 2",
-      "slug": "beats-powerbeats-pro-2",
-      "price": 199.99,
-      "details": "Wireless earbuds with long battery life and sleek design",
-      "image": "/assets/earphones_b_2.webp"
-    },
-    {
-      "name": "Bose QuietComfort Earbuds",
-      "slug": "bose-quietcomfort-earbuds",
-      "price": 249.99,
-      "details": "Wireless earbuds with advanced noise cancellation and comfort fit",
-      "image": "/assets/earphones_b_4.webp"
-    },
-    {
-      "name": "Anker Soundcore Liberty 2 Pro",
-      "slug": "anker-soundcore-liberty-2-pro",
-      "price": 149.99,
-      "details": "Wireless earbuds with long battery life and affordable price",
-      "image": "/assets/speaker3.webp"
-    }
+  {
+    "name": "Radiant Glow Serum",
+    "slug": "radiant-glow-serum",
+    "price": 45.00,
+    "details": "This lightweight serum delivers deep hydration and helps reduce the appearance of fine lines and wrinkles, leaving your skin radiant and glowing. Formulated with natural plant extracts and hyaluronic acid, it nourishes and revitalizes tired skin for a youthful look.",
+    "image": "/assets/product-1.png",
+    "productQuantity": "30ML",
+    "howToApply": [
+      "Step 1: Apply 2-3 drops to your cleansed face and neck. Gently massage the serum into the skin in circular motions.",
+      "Step 2: Allow the serum to fully absorb before applying moisturizer."
+    ],
+    "ingredients": "AQUA/WATER/EAU, GLYCERIN, SODIUM HYALURONATE, CAMELLIA SINENSIS (GREEN TEA) LEAF EXTRACT, ALOE BARBADENSIS LEAF JUICE, PHENOXYETHANOL, CAPRYLYL GLYCOL, TOCOPHEROL (VITAMIN E), ASCORBIC ACID (VITAMIN C), LINALOOL, LIMONENE, GERANIOL"
+  },
+  {
+    "name": "Luminous Hydration Cream",
+    "slug": "luminous-hydration-cream",
+    "price": 65.00,
+    "details": "A rich, luxurious moisturizer that provides intense hydration and restores luminosity to your skin. Enriched with botanical extracts and essential vitamins, this cream deeply moisturizes while improving skin elasticity and tone. Perfect for dry and sensitive skin.",
+    "image": "/assets/product-2.png",
+    "productQuantity": "50ML",
+    "howToApply": [
+      "Step 1: After cleansing, apply a generous amount of cream to your face and neck.",
+      "Step 2: Gently massage the product into your skin using upward strokes.",
+      "Step 3: Use daily, morning and night, for best results."
+    ],
+    "ingredients": "WATER (AQUA), GLYCERIN, BUTYROSPERMUM PARKII (SHEA) BUTTER, SQUALANE, GLYCERYL STEARATE SE, CAMELLIA SINENSIS (GREEN TEA) LEAF EXTRACT, PANTHENOL, ALOE BARBADENSIS LEAF EXTRACT, TOCOPHEROL (VITAMIN E), ASCORBYL PALMITATE, HELIANTHUS ANNUUS (SUNFLOWER) SEED OIL, ROSA DAMASCENA FLOWER OIL, CITRONELLOL, GERANIOL"
+  },
+  {
+    "name": "Revitalizing Eye Cream",
+    "slug": "revitalizing-eye-cream",
+    "price": 38.00,
+    "details": "Target fine lines, puffiness, and dark circles with this revitalizing eye cream. Formulated with caffeine and vitamin C, it helps to brighten and firm the delicate skin around your eyes, reducing the signs of fatigue and aging. The lightweight texture absorbs quickly for a refreshed look.",
+    "image": "/assets/product-3.png",
+    "productQuantity": "15ML",
+    "howToApply": [
+      "Step 1: Gently pat a small amount around the eye area using your ring finger.",
+      "Step 2: Use morning and evening for optimal results.",
+      "Step 3: Avoid direct contact with the eyes."
+    ],
+    "ingredients": "WATER (AQUA), BUTYLENE GLYCOL, GLYCERIN, CAFFEINE, SODIUM HYALURONATE, ASCORBIC ACID (VITAMIN C), TOCOPHERYL ACETATE (VITAMIN E), NIACINAMIDE, PANTHENOL, CHAMOMILLA RECUTITA (MATRICARIA) FLOWER EXTRACT, CENTELLA ASIATICA EXTRACT, PHENOXYETHANOL, CARBOMER, XANTHAN GUM, ETHYLHEXYLGLYCERIN, SODIUM HYDROXIDE"
+  },
+  {
+    "name": "Purifying Clay Mask",
+    "slug": "purifying-clay-mask",
+    "price": 28.00,
+    "details": "Detoxify and purify your skin with this mineral-rich clay mask. It draws out impurities and excess oil while replenishing your skin with essential nutrients. Infused with kaolin clay and aloe vera, this mask leaves your skin feeling clean, refreshed, and balanced.",
+    "image": "/assets/product-10.png",
+    "productQuantity": "60ML",
+    "howToApply": [
+      "Step 1: Apply an even layer to clean, dry skin, avoiding the eye area.",
+      "Step 2: Leave on for 10-15 minutes until the mask dries.",
+      "Step 3: Rinse thoroughly with warm water and pat your skin dry.",
+      "Step 4: Use 2-3 times a week for best results."
+    ],
+    "ingredients": "WATER (AQUA), KAOLIN, BENTONITE, GLYCERIN, ALOE BARBADENSIS LEAF JUICE, PHENOXYETHANOL, ETHYLHEXYLGLYCERIN, CAMELLIA SINENSIS (GREEN TEA) LEAF EXTRACT, ROSMARINUS OFFICINALIS (ROSEMARY) LEAF EXTRACT, TOCOPHEROL (VITAMIN E)"
+  },
+  {
+    "name": "Soothing Face Mist",
+    "slug": "soothing-face-mist",
+    "price": 22.00,
+    "details": "Refresh and hydrate your skin with this calming face mist, enriched with rose water and chamomile. This mist instantly soothes irritated skin and provides a dewy glow, perfect for use throughout the day to keep your skin looking and feeling fresh.",
+    "image": "/assets/product-4.png",
+    "productQuantity": "100ML",
+    "howToApply": [
+      "Step 1: Hold the bottle about 10 inches away from your face.",
+      "Step 2: Close your eyes and spritz evenly across your face.",
+      "Step 3: Use anytime your skin needs a boost of hydration."
+    ],
+    "ingredients": "WATER (AQUA), ROSA DAMASCENA FLOWER WATER, CHAMOMILLA RECUTITA (MATRICARIA) FLOWER EXTRACT, GLYCERIN, ALOE BARBADENSIS LEAF JUICE, PHENOXYETHANOL, ETHYLHEXYLGLYCERIN, CITRIC ACID"
+  },
+  {
+    "name": "Rejuvenating Night Cream",
+    "slug": "rejuvenating-night-cream",
+    "price": 52.00,
+    "details": "Wake up to smoother, firmer skin with this rich night cream. Formulated with retinol and peptides, it works overnight to boost collagen production and reduce the appearance of fine lines and wrinkles. The nourishing blend of oils and vitamins helps repair and restore your skin as you sleep.",
+    "image": "/assets/product-6.png",
+    "productQuantity": "50ML",
+    "howToApply": [
+      "Step 1: After cleansing, apply a generous layer of the cream to your face and neck.",
+      "Step 2: Massage gently in upward motions and leave on overnight."
+    ],
+    "ingredients": "WATER (AQUA), GLYCERIN, RETINOL, PALMITOYL TRIPEPTIDE-1, JOJOBA OIL, ALOE VERA LEAF JUICE, SQUALANE, PHENOXYETHANOL, ETHYLHEXYLGLYCERIN, NIACINAMIDE, TOCOPHEROL (VITAMIN E)"
+  },
+  {
+    "name": "Brightening Vitamin C Serum",
+    "slug": "brightening-vitamin-c-serum",
+    "price": 48.00,
+    "details": "Brighten your complexion with this powerful Vitamin C serum. It helps reduce the appearance of dark spots and hyperpigmentation while promoting a more even skin tone. Packed with antioxidants, it protects your skin from environmental stressors and boosts radiance.",
+    "image": "/assets/product-7.png",
+    "productQuantity": "30ML",
+    "howToApply": [
+      "Step 1: Apply a few drops to cleansed skin, avoiding the eye area.",
+      "Step 2: Follow with moisturizer and sunscreen in the morning."
+    ],
+    "ingredients": "WATER (AQUA), ASCORBIC ACID (VITAMIN C), GLYCERIN, NIACINAMIDE, SODIUM HYALURONATE, ALOE BARBADENSIS LEAF JUICE, PHENOXYETHANOL, CITRIC ACID"
+  },
+  {
+    "name": "Nourishing Lip Balm",
+    "slug": "nourishing-lip-balm",
+    "price": 12.00,
+    "details": "Keep your lips soft and smooth with this nourishing lip balm. Made with shea butter and jojoba oil, it provides long-lasting hydration and protection against dryness. The lightweight formula absorbs quickly, leaving your lips feeling moisturized and cared for.",
+    "image": "/assets/product-8.png",
+    "productQuantity": "10G",
+    "howToApply": [
+      "Step 1: Apply a small amount to your lips as needed throughout the day.",
+      "Step 2: Reapply before bed for overnight hydration."
+    ],
+    "ingredients": "SHEA BUTTER, JOJOBA OIL, BEESWAX, GLYCERIN, VITAMIN E, ALOE VERA, COCONUT OIL"
+  },
+  {
+    "name": "Detoxifying Charcoal Cleanser",
+    "slug": "detoxifying-charcoal-cleanser",
+    "price": 26.00,
+    "details": "Purify your skin with this detoxifying charcoal cleanser. It gently removes impurities and excess oil, leaving your skin feeling refreshed and balanced. Perfect for oily and combination skin types, it helps to unclog pores and prevent breakouts.",
+    "image": "/assets/product-9.png",
+    "productQuantity": "120ML",
+    "howToApply": [
+      "Step 1: Apply a small amount to damp skin and massage gently.",
+      "Step 2: Rinse thoroughly with lukewarm water and pat dry.",
+      "Step 3: Use morning and night for a clear complexion."
+    ],
+    "ingredients": "WATER (AQUA), ACTIVATED CHARCOAL, GLYCERIN, SALICYLIC ACID, ALOE VERA, TEA TREE OIL, COCONUT OIL"
+  },
+  {
+    "name": "Firming Body Lotion",
+    "slug": "firming-body-lotion",
+    "price": 34.00,
+    "details": "Tone and firm your skin with this nourishing body lotion. Enriched with caffeine and shea butter, it helps improve skin elasticity and smoothness while deeply hydrating. Ideal for daily use, it leaves your skin feeling soft, supple, and rejuvenated.",
+    "image": "/assets/product-10.png",
+    "productQuantity": "200ML",
+    "howToApply": [
+      "Step 1: Apply generously to clean skin, focusing on areas prone to dryness.",
+      "Step 2: Massage in circular motions until fully absorbed."
+    ],
+    "ingredients": "WATER (AQUA), CAFFEINE, SHEA BUTTER, GLYCERIN, ALOE VERA, COCONUT OIL, VITAMIN E, PANTHENOL"
+  },
+  {
+    "name": "Anti-Aging Retinol Serum",
+    "slug": "anti-aging-retinol-serum",
+    "price": 58.00,
+    "details": "Reduce the appearance of fine lines and wrinkles with this potent retinol serum. Designed to boost collagen production and enhance skin texture, it helps to minimize signs of aging and promote a smoother, more youthful complexion.",
+    "image": "/assets/product-11.png",
+    "productQuantity": "30ML",
+    "howToApply": [
+      "Step 1: Apply at night after cleansing, avoiding the eye area.",
+      "Step 2: Follow with a moisturizer to lock in hydration."
+    ],
+    "ingredients": "WATER (AQUA), RETINOL, GLYCERIN, SODIUM HYALURONATE, VITAMIN E, ALOE VERA, JOJOBA OIL"
+  }
 ]
