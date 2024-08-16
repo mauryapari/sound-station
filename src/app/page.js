@@ -11,7 +11,7 @@ export default function Home() {
           <div className="grid gap-6 lg:grid-cols-[1fr_500px] lg:gap-12 xl:grid-cols-[1fr_600px]">
             <div className="flex flex-col justify-center space-y-4">
               <div>
-                <h1 className="text-3xl font-bold leading-4 tracking-tighter sm:text-5xl xl:text-6xl/snug">
+                <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/snug">
                   Be Your Kind <br /> of Beauty
                 </h1>
                 <p className="max-w-[600px] text-muted-foreground md:text-xl mt-4">

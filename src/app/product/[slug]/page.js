@@ -8,6 +8,7 @@ import {
   AccordionTrigger,
   AccordionItem,
 } from "@/components/ui/accordion";
+import Rating from "@/components/ratings";
 
 export default function Product(props) {
   const { params } = props;
@@ -28,71 +29,7 @@ export default function Product(props) {
               {product.name}
             </h1>
             <div className="flex space-x-1">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="24"
-                height="24"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                stroke-width="2"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              >
-                <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
-              </svg>
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="24"
-                height="24"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                stroke-width="2"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              >
-                <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
-              </svg>
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="24"
-                height="24"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                stroke-width="2"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              >
-                <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
-              </svg>
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="24"
-                height="24"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                stroke-width="2"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              >
-                <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
-              </svg>
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="24"
-                height="24"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                stroke-width="2"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              >
-                <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
-              </svg>
+              <Rating rating={3.7} ratingCount={1000}/>
             </div>
             <p className="text-2xl font-semibold text-zinc-900 dark:text-zinc-50">
               $120
@@ -112,23 +49,23 @@ export default function Product(props) {
               </Button>
             </div>
             <p className="text-xs text-zinc-500 dark:text-zinc-400">
-              Fabric: 100% Cotton. Care: Machine wash cold, tumble dry low.
+              {product.ingredients.slice(0,100).split(',').map(item => item.toSentenceCase()).join(',')}...
             </p>
           </div>
         </div>
       </section>
       <section className="w-full py-12 md:py-24 lg:py-32 bg-muted">
-        <div className="container flex items-start gap-8 px-4 md:px-6">
+        <div className="container flex items-start gap-8 px-4 md:px-36">
           <Accordion type="single" collapsible className="w-full">
-            <AccordionItem value="item-1">
+            <AccordionItem defaultValue value="item-1">
               <AccordionTrigger>Product Details</AccordionTrigger>
-              <AccordionContent>{product.details}</AccordionContent>
+              <AccordionContent className="leading-8">{product.details}</AccordionContent>
             </AccordionItem>
             <AccordionItem value="item-2">
               <AccordionTrigger>How To Apply</AccordionTrigger>
               <AccordionContent>
                 {product.howToApply.map((item, index) => (
-                  <p className="text-sm" key={index}>{item}</p>
+                  <p className="mb-4 text-sm" key={index}>{item}</p>
                 ))}
               </AccordionContent>
             </AccordionItem>
