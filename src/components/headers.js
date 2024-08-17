@@ -6,11 +6,14 @@ import {
   NavigationMenuList,
   NavigationMenuLink,
 } from "@/components/ui/navigation-menu";
-import { Headphones, Heart, Menu, ShoppingCart, Waves } from "lucide-react";
+import { Menu, Waves } from "lucide-react";
+import MiniCart from "./miniCart";
+import Wishlist from "./wishlist";
 
 export default function Header() {
   return (
-    <header className="container flex h-20 w-full justify-between shrink-0 items-center px-4 md:px-6">
+    <header className="sticky top-0 z-50 px-4 md:px-6 bg-white">
+      <div className="container flex h-20 items-center justify-between shrink-0">
       <Sheet>
         <SheetTrigger asChild>
           <Button variant="outline" size="icon" className="lg:hidden">
@@ -20,10 +23,10 @@ export default function Header() {
         </SheetTrigger>
         <SheetContent side="left">
           <Link href="/" prefetch={false}>
-          <div className="flex gap-2">
-            <Waves className="h-6 w-6" />
-            <span>Beautya</span>
-          </div>
+            <div className="flex gap-2">
+              <Waves className="h-6 w-6" />
+              <span>Beautya</span>
+            </div>
             <span className="sr-only">Beautya Inc</span>
           </Link>
           <div className="grid gap-2 py-6">
@@ -60,9 +63,9 @@ export default function Header() {
       </Sheet>
       <Link href="/" className="mr-6 hidden lg:flex" prefetch={false}>
         <div className="flex gap-2 items-center">
-            <Waves className="h-6 w-6" />
-            <span className="text-xl">Beautya</span>
-          </div>
+          <Waves className="h-6 w-6" />
+          <span className="text-xl">Beautya</span>
+        </div>
         <span className="sr-only">Beautya Inc</span>
       </Link>
       <NavigationMenu className="hidden lg:flex">
@@ -106,12 +109,9 @@ export default function Header() {
         </NavigationMenuList>
       </NavigationMenu>
       <div className="flex gap-6">
-        <Link href="/cart">
-          <ShoppingCart className="h-6 w-6" />
-        </Link>
-        <Link href="/wishlist">
-          <Heart className="h-6 w-6" />
-        </Link>
+        <MiniCart />
+        <Wishlist/>
+      </div>
       </div>
     </header>
   );
