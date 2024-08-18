@@ -55,13 +55,6 @@ export default function Facets(props) {
           <h2 className="text-xl font-bold">Filters</h2>
           <Button className="text-xs md:text-sm" onClick={removeAllFilters}>Clear Filters</Button>
         </div>
-        <div className="relative">
-          <Button
-            className="absolute right-2.5 top-3"
-            size="icon"
-            variant="ghost"
-          />
-        </div>
         <div className="space-y-2">
           <h3 className="text-base font-semibold mb-2">Brand</h3>
           <div className="grid gap-2">
