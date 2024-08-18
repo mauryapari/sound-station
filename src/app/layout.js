@@ -22,7 +22,7 @@ export default function RootLayout({ children }) {
           <Header />
           {children}
           <Footer />
-          <Toaster position="bottom-center" richColors />
+          <Toaster position="bottom-center" richColors theme='light'/>
         </GlobalProvider>
       </body>
     </html>

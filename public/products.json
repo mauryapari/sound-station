@@ -1,155 +1,275 @@
 [
   {
-    "name": "Radiant Glow Serum",
-    "slug": "radiant-glow-serum",
-    "price": 45.00,
+    "name": "Renewing SA Cleaner",
+    "slug": "renewing-sa-cleaner",
+    "price": 5133.55,
+    "reviewRating": 4.6,
+    "reviewCount": 2450,
+    "brand": "",
+    "quantityInStock": 5,
+    "shortDescription": "CeraVe Renewing SA Cleanser provides gentle, non-irritating exfoliation without harsh microbeads that can scratch your skin. Our salicylic acid cleanser not only exfoliates the skin, but with three essential ceramides, hyaluronic acid and niacinamide it also helps soften and smooth the skin without disrupting its protective barrier",
+    "details": [
+      "A gentle salicylic acid cleanser can help exfoliate and smooth your skin while also effectively removing oil and dirt, sweeping away dead cells, and softening rough skin—without leaving skin feeling dry. Cleansing with CeraVe Renewing SA Cleanser, a salicylic acid cleanser enhanced with barrier-restoring ingredients like ceramides, can help keep moisture in while keeping irritants out. ",
+      "CeraVe Renewing SA Cleanser provides gentle, non-irritating exfoliation without harsh microbeads that can scratch your skin. Suitable for use on your face and body as well as acne-prone skin, our salicylic acid cleanser not only exfoliates the skin, but with three essential ceramides, hyaluronic acid and niacinamide, it also helps soften and smooth the skin without disrupting its protective barrier. This formula is also non-comedogenic, fragrance-free and enriched with antioxidant vitamin D. Allergy Tested"
+    ],
+    "image": "/assets/renewing-sa-cleaner.webp",
+    "productQuantity": "237ML",
+    "howToApply": [
+      "Wet skin with lukewarm water",
+      "Massage cleanser into skin in a gentle, circular motion",
+      "Rinse"
+    ],
+    "ingredients": "Aqua/Water/Eau, Cocamidopropyl Hydroxysultaine, Glycerin, Sodium Lauroyl Sarcosinate, Niacinamide, Gluconolactone, Peg-150 Pentaerythrityl Tetrastearate, Sodium Methyl Cocoyl Taurate, Zea Mays Oil/Corn Oil, Ceramide NP, Ceramide AP, Ceramide EOP, Carbomer, Calcium Gluconate, Sodium Chloride, Salicylic Acid, Sodium Benzoate, Sodium Lauroyl Lactylate, Cholecalciferol, Cholesterol, Phenoxyethanol, Disodium Edta, Tetrasodium Edta, Hydrolyzed Hyaluronic Acid, Phytosphingosine, Xanthan Gum, Ethylhexylglycerin"
+  },
+  {
+    "name": "SOS Rescue Spray",
+    "slug": "sos-rescue-spray",
+    "price": 11620,
     "reviewRating": 4.5,
-    "reviewCount": 1000,
-    "brand":"american",
-    "shortDescription": "Some small description about the product",
-    "details": "This lightweight serum delivers deep hydration and helps reduce the appearance of fine lines and wrinkles, leaving your skin radiant and glowing. Formulated with natural plant extracts and hyaluronic acid, it nourishes and revitalizes tired skin for a youthful look.",
+    "reviewCount": 1002,
+    "brand": "american",
+    "quantityInStock": 5,
+    "shortDescription": "A soothing, purifying, and renewing toner treatment for fast angry skin relief. Use AM/PM to maintain and prevent redness and irritation.",
+    "details": [
+      "Powered by hypochlorous acid, this daily toner treatment is anti-inflammatory + antibacterial and helps calm your skin, support the skin barrier, and keep flare-ups at bay. pH balanced (4.5), alcohol-free, and formulated for facial use, but also safe to use to use anywhere on your skin.",
+      "Earth Sensitive Pledge: SOS packaging is made from 100% PCR (aka post-consumer recycled plastic) as part of our commitment to sustainable packaging."
+    ],
+    "image": "/assets/sos-rescue-spray.webp",
+    "productQuantity": "120ML",
+    "howToApply": [
+      "Use AM/PM on clean skin in place of toner to maintain and prevent redness and irritation. Also use throughout the day over makeup and as needed (post-workout, etc) to refresh and purify."
+    ],
+    "ingredients": "Water, Sodium Chloride, Hypochlorous Acid."
+  },
+  {
+    "name": "The Rice Wash",
+    "slug": "the-rice-wash",
+    "price": 7470,
+    "reviewRating": 4.8,
+    "reviewCount": 2881,
+    "brand": "american",
+    "quantityInStock": 5,
+    "shortDescription": "Purify your skin with this detoxifying charcoal cleanser. It gently removes impurities and excess oil, leaving your skin feeling refreshed and balanced. Perfect for oily and combination skin types, it helps to unclog pores and prevent breakouts.",
+    "details": [
+      "Purify your skin with this detoxifying charcoal cleanser. It gently removes impurities and excess oil, leaving your skin feeling refreshed and balanced. Perfect for oily and combination skin types, it helps to unclog pores and prevent breakouts."
+    ],
+    "image": "/assets/the-rice-wash.avif",
+    "productQuantity": "120ML",
+    "howToApply": [
+      "Apply a small amount to damp skin and massage gently.",
+      "Rinse thoroughly with lukewarm water and pat dry.",
+      "Use morning and night for a clear complexion."
+    ],
+    "ingredients": "Aqua/Water/Eau, Microcrystalline Cellulose, Propanediol, Sodium Cocoyl Glutamate, Glycerin, Acrylates Copolymer, Sodium Caproyl Methyltaurate, Coco-Betaine, Parfum/Fragrance, Saccharomyces/Camellia Sinensis Leaf/Cladosiphon Okamuranus/Rice Ferment Filtrate*, Oryza Sativa (Rice) Powder, Chondrus Crispus Extract, Sodium Hyaluronate, Betaphycus Gelatinum Extract, Lauryl Glucoside, Potassium Hydroxide, Polyquaternium-39, Disodium Edta, Phenoxyethanol, Ethylhexylglycerin, Sodium Benzoate, Sodium Carbonate, Alcohol*Hadasei-3"
+  },
+  {
+    "name": "Nº.4 BOND MAINTENANCE® SHAMPOO.",
+    "slug": "bond-maintainance-shampoo",
+    "price": 12450,
+    "reviewRating": 4.4,
+    "reviewCount": 3287,
+    "brand": "american",
+    "quantityInStock": 5,
+    "shortDescription": "A highly concentrated shampoo that strengthens and adds shine to damage-prone hair as it gently cleanses. The rich lather nourishes and repairs to leave hair smoother and more manageable. Pair with Nº.5 for softer, shinier, healthier-looking hair with every wash. Color safe.",
+    "details": [
+      "A highly concentrated shampoo that strengthens and adds shine to damage-prone hair as it gently cleanses. The rich lather nourishes and repairs to leave hair smoother and more manageable. Pair with Nº.5 for softer, shinier, healthier-looking hair with every wash. Color safe."
+    ],
+    "image": "/assets/bond-maintainance-shampoo.webp",
+    "productQuantity": "250ML",
+    "howToApply": [
+      "Apply to wet hair and lather.",
+      "Rinse Well",
+      "Follow with Nº.5 Bond Maintenance® Conditioner."
+    ],
+    "ingredients": "Water (Aqua/Eau), Sodium Lauroyl Methyl Isethionate, Cocamidopropyl Hydroxysultaine, Potassium Cocoyl Glycinate, Disodium Cocoyl Glutamate, Sodium Lauroyl Sarcosinate, Potassium Cocoate, Decyl Glucoside, Glycereth-26, Bis-Aminopropyl Diglycol Dimaleate, Cocamidopropylamine Oxide, Disodium Laureth Sulfosuccinate, Glycol Distearate, Sodium Cocoyl Glutamate, Methyl Gluceth-20, Acrylates Copolymer, PEG-120 Methyl Glucose Dioleate, Amodimethicone, Citric Acid, Sodium Lauryl Sulfoacetate, Polyquaternium-10, Ethylhexylglycerin, DivinylDimethicone/Dimethicone Copolymer, Polyquaternium-11, Trisodium Ethylenediamine Disuccinate, Guar Hydroxypropyltrimonium Chloride, C11-15 Pareth-7, Laureth-9, Glycerin, Trideceth-12, C12-13 Pareth-23, C12-13 Pareth-3, Hydrolyzed Vegetable Protein, PG-Propyl Silanetriol, Panthenol, Acetic Acid, Tetrasodium EDTA, Pentasodium Triphosphate, Sodium Hydroxide, Disodium EDTA, Helianthus Annus (Sunflower) Seed Oil, Tocopherol, Prunus Armeniaca (Apricot) Kernel Oil, Pseudozyma Epicola/Camellia Sinensis Seed Oil Ferment Extract Filtrate, Pseudozyma Epicola/Argania Spinosa Kernel Oil Ferment Filtrate, Quaternium-95, Propanediol, Helianthus Annus (Sunflower) Seed Extract, PEG-8, Euterpe Oleracea Fruit Extract, Punica Granatum Extract, Rosemarinus Officinalis (Rosemary) Leaf Extract, Musa Sapientum (Banana) Fruit Extract, Origanum Vulgare Lear Extract, Morinda Citrifolia Fruit Extract, Articum Lappa Root Extract, PEG-8/SMDI Copolymer, Sodium Hyaluronate, Palmitoyl Myristyl Serinate, Sodium Polyacrylate, Pentaerythrityl Tetra-Di-T-Butyl Hydroxyhydrocinnamate, Biotin, Benzoic Acid, Phenoxyethanol, Chlorphenesin, Potassium Sorbate, Sodium Benzoate, Fragrance(Parfum), Citral, Hexyl Cinnamal, Limonene"
+  },
+  {
+    "name": "Isntree Hyaluronic Acid Aqua Gel Cream 100ml",
+    "slug": "isntree-hyaluronic-acid-aqua-gel-cream",
+    "price": 9221.33,
+    "reviewRating": 5,
+    "reviewCount": 20,
+    "brand": "korean",
+    "quantityInStock": 5,
+    "shortDescription": "ISNTREE Hyaluronic Acid Aqua Gel Cream contains 5 types of Hyaluronic Acid and Aloe Vera, this gel-cream is designed to penetrate the deepest layer of skin while also calming irritated skin. It hydrates the layers of skin, provides long-lasting hydration for a plumper and healthier skin. Formulated with Centella Asiatica and Green Tea extract, this lightweight gel-cream delivers anti-oxidants and anti-inflammatory effects, leaving the skin smooth and healthy.",
+    "details": [
+      "ISNTREE Hyaluronic Acid Aqua Gel Cream contains 5 types of Hyaluronic Acid and Aloe Vera, this gel-cream is designed to penetrate the deepest layer of skin while also calming irritated skin. It hydrates the layers of skin, provides long-lasting hydration for a plumper and healthier skin. Formulated with Centella Asiatica and Green Tea extract, this lightweight gel-cream delivers anti-oxidants and anti-inflammatory effects, leaving the skin smooth and healthy."
+    ],
+    "image": "/assets/isntree-hyaluronic-acid-aqua-gel-cream.jpg",
+    "productQuantity": "30ML",
+    "howToApply": [
+      "Apply after toner and serum step.",
+      "Gently massage and pat over entire face and neck for quick absorption.",
+      "Can be used in both AM and PM routine."
+    ],
+    "ingredients": "Water, Glycerin, Hydrogenated Polydecene, Caprylic/Capric Triglyceride, Dipro- pylene Glycol, Cyclohexasiloxane, Butyrospermum Parkii (Shea) Butter, Polyglyceryl 3 Methylglucose Distearate, Cetyl Alcohol, Glycereth 26, Glyceryl Stearate, Betaine, Behenyl Alcohol, Vinyl Dimethicone, Pentylene Glycol, Laminaria Japonica Extract, Eclipta Prostrata Leaf Extract, Avena Sativa (Oat) Kernel Extract, Cynara Scolymus (Artichoke) Leaf Extract, Prunus Armeniaca (Apricot) Kernel Oil, Argania Spinosa Kernel Oil, Carthamus Tinctorius (Safflower) Seed Oil, Sodium Hyaluronate, Hydrogenated Lecithin, Ca- mellia Sinensis Leaf Water, Polyglyceryl 10 Laurate, Pentaerythrityl Distearate, Ammonium Acryloyldimethyltaurate/Vp Copolymer, Glyceryl Caprylate, Sodium Stearoyl Glutamate, Methyl propanediol, Fructooligosaccharides, Disodium Edta, Beta Glucan, Hydrolyzed Hyaluronic Acid, Polyquaternium 51, Butylene Glycol, Hydroxypropyltrimonium Hyaluronate, Dimethylsilanol Hyaluronate, Hydrolyzed Sodium Hyaluronate, Potassium Hyaluronate, Hyaluronic Acid, Sodium Hyaluronate Crosspolymer, Sodium Acetylated Hyaluronate, Sodium Hyaluronate Dimethyl- silanol, 1,2 Hexanediol, Hydroxyacetophenone, Ethylhexylglycerin"
+  },
+  {
+    "name": "COSRX 6X Peptide Collagen Booster Toner Serum",
+    "slug": "cosrx-6x-pestide-collagen-booster-toner-serum",
+    "price": 12450,
+    "reviewRating": 4.6,
+    "reviewCount": 1503,
+    "brand": "korean",
+    "quantityInStock": 5,
+    "shortDescription": "Unveil your skin's natural glow with the COSRX The 6 Peptide Skin Booster Serum (150 ml). Infused with six peptides, it boosts elasticity and luminosity while minimizing the appearance of fine lines and pores.",
+    "details": [
+      "Unveil your skin's natural glow with the COSRX The 6 Peptide Skin Booster Serum (150 ml). Infused with six peptides, it boosts elasticity and luminosity while minimizing the appearance of fine lines and pores. Enriched with the goodness of niacinamide, this serum targets acne and hyperpigmentation, while adenosine helps diminish visible signs of aging. This lightweight, hydrating formula is the key to enhancing your skin's radiance and softness."
+    ],
+    "image": "/assets/cosrx-6x-pestide-collagen-booster-toner-serum.avif",
+    "productQuantity": "150ML",
+    "howToApply": [
+      "After cleansing, apply 2-3 pumps of the Serum on your face",
+      "Layer on your favorite moisturizer for additional hydration",
+      "Best when used with the COSRX Niacinamide 15 Serum OR the COSRX Vitamin C 23/13 Serum."
+    ],
+    "ingredients": "Water, Dipropylene Glycol, Glycerin, Pentylene Glycol, 1,2-Hexanediol, Niacinamide, Ammonium Acryloyldimethyltaurate/VP Copolymer, Polyacrylate Crosspolymer-6, Butylene Glycol, Xanthan Gum, Ethylhexylglycerin, Adenosine, Polyquaternium-51, Disodium EDTA, Citric Acid, Caprylyl Glycol, Betaine, t-Butyl Alcohol, Sodium PCA, Sodium Lactate, Acetyl Hexapeptide-8, Copper Tripeptide-1, PCA, sh-Polypeptide-121, Serine, Alanine, Allantoin, Sodium Hyaluronate, Acetyl Glucosamine, Glycine, Glutamic Acid, Lysine HCl, Threonine, Dipeptide Diaminobutyroyl Benzylamide Diacetate, Arginine, Tocopherol, Oligopeptide-68, Proline, Dextran, Palmitoyl Tripeptide-8, Glycine Soja (Soybean) Oil, Hydrogenated Lecithin, Potassium Sorbate, Sodium Oleate"
+  },
+  {
+    "name": "Illiyoon Ceramide Ato Concentrate Cream ",
+    "slug": "illiyoon-ceramide-ato-concentrate-cream",
+    "price": 7050.85,
+    "reviewRating": 4.5,
+    "reviewCount": 1783,
+    "brand": "korean",
+    "quantityInStock": 5,
+    "shortDescription": "This is a gentle and nourishing skincare solution specifically designed for sensitive and dry skin. Its patented ceramide capsule contains a unique formula that helps protect the skin from external factors while deeply moisturizing it from within. The ceramide Skim Complex is a powerful ingredient that delivers enriched ceramide to the deepest layers of the skin, helping to strengthen the skin's barrier and prevent damage. In addition, the cream contains a lotus fermented soybean extract that calms and soothes sensitive skin, leaving it feeling healthy and refreshed. The cream has a soft, moisturizing texture that is gentle on the skin and absorbs quickly without leaving a sticky residue. It is also free from harmful ingredients, with a 7 free system that is free from artificial flavors, animal-derived raw materials, mineral oil, tar color, PEG surfactants, triethanolamine, and imidazolidinyl urea. This means that it is suitable for even the most sensitive skin, including babies.",
+    "details": [
+      "This is a gentle and nourishing skincare solution specifically designed for sensitive and dry skin. Its patented ceramide capsule contains a unique formula that helps protect the skin from external factors while deeply moisturizing it from within. The ceramide Skim Complex is a powerful ingredient that delivers enriched ceramide to the deepest layers of the skin, helping to strengthen the skin's barrier and prevent damage. In addition, the cream contains a lotus fermented soybean extract that calms and soothes sensitive skin, leaving it feeling healthy and refreshed. The cream has a soft, moisturizing texture that is gentle on the skin and absorbs quickly without leaving a sticky residue. It is also free from harmful ingredients, with a 7 free system that is free from artificial flavors, animal-derived raw materials, mineral oil, tar color, PEG surfactants, triethanolamine, and imidazolidinyl urea. This means that it is suitable for even the most sensitive skin, including babies.",
+      "It is dermatologist tested and verified as hypoallergenic, making it a safe and effective solution for improving sensitive and dry skin. The fragrance-free formula is also clean and comfortable to use on a daily basis, providing a more reliable solution to sensitive skin care."
+    ],
+    "image": "/assets/product-1.png",
+    "productQuantity": "200ML",
+    "howToApply": [
+      "Apply and appropriate amount along skin texture and gently pat to enhance absorption."
+    ],
+    "ingredients": "Purified Water, Butylene Glycol, Glycerin, Cetyl Ethylhexanoate, Pentaerythrityl Tetraisostearate, Stearic Acid, Cyclopentasiloxane, Palmitic Acid, Behenyl Alcohol, Panax Ginseng Root Extract, Magnolia Biondii Flower Extract, Perilla Ocymoides Seed Extract, Lactobacillus/​Soybean Ferment Extract, Hydroxypropyl Bispalmitamide MEA (Ceramide Pc-104 6310Ppm), C12-20 Alkyl Glucoside, C14-22 Alcohols, Glyceryl Caprylate, Dimethiconol, Mannitol, Cyclohexasiloxane, Silica, Arachidyl Glucoside, Arachidyl Alcohol, Acrylates/​Ammonium Methacrylate Copolymer, Ethylhexylglycerin, Cholesterol, Polysorbate 20, Polyacrylate-13, Polyisobutene, Propanediol"
+  },
+  {
+    "name": "Tranexamic Acid 10% Serum",
+    "slug": "tranexamic-acid-10%-serum",
+    "price": 7034.25,
+    "reviewRating": 4.1,
+    "reviewCount": 21,
+    "brand": "korean",
+    "quantityInStock": 5,
+    "shortDescription": "Skin Radiance Enhancement: Experience a brighter and more radiant complexion with TT's carefully crafted formula, which includes skin-loving ingredients like Niacinamide, botanical extracts, and antioxidants.",
+    "details": [
+      "Skin Radiance Enhancement: Experience a brighter and more radiant complexion with TT's carefully crafted formula, which includes skin-loving ingredients like Niacinamide, botanical extracts, and antioxidants.",
+      "Skin Radiance Enhancement: Experience a brighter and more radiant complexion with TT's carefully crafted formula, which includes skin-loving ingredients like Niacinamide, botanical extracts, and antioxidants.",
+      "Skin Comfort and Soothing: Pamper your skin with the soothing properties of Madecassoside, Panthenol, and Allantoin, which help calm and comfort irritated skin.",
+      "Antioxidant Defense: Harness the power of antioxidants like Epigallocatechin Gallate (EGCG) and Tocopheryl Acetate (Vitamin E) to protect your skin from environmental stressors and premature aging.",
+      "Natural Botanical Ingredients: TT features a blend of botanical extracts, including Camellia Sinensis Leaf Extract, Sambucus Nigra Flower Extract, Momordica Charantia Fruit Extract, and Leontopodium Alpinum Extract, for a holistic approach to skincare."
+    ],
     "image": "/assets/product-1.png",
     "productQuantity": "30ML",
     "howToApply": [
-      "Step 1: Apply 2-3 drops to your cleansed face and neck. Gently massage the serum into the skin in circular motions.",
-      "Step 2: Allow the serum to fully absorb before applying moisturizer."
+      "Cleanse your face and neck thoroughly.",
+      "Apply a few drops of the serum to your face and neck, focusing on areas with discoloration or dark spots.",
+      "Gently massage the serum into your skin in circular motions until fully absorbed.",
+      "Follow with your favorite moisturizer.",
+      "Use daily, preferably in the evening."
     ],
-    "ingredients": "AQUA/WATER/EAU, GLYCERIN, SODIUM HYALURONATE, CAMELLIA SINENSIS (GREEN TEA) LEAF EXTRACT, ALOE BARBADENSIS LEAF JUICE, PHENOXYETHANOL, CAPRYLYL GLYCOL, TOCOPHEROL (VITAMIN E), ASCORBIC ACID (VITAMIN C), LINALOOL, LIMONENE, GERANIOL"
+    "ingredients": "*Centella Asiatica Extract, Tranexamic Acid, Butylene Glycol, Glycerin, Niacinamide, Isononyl Isononanoate, 1,2-Hexanediol, Aloe Barbadensis Leaf Extract, Panthenol, Allantoin, Dipotassium Glycyrrhizate, Sodium Hyaluronate, Tocopheryl Acetate, *Camellia Sinensis Leaf Extract, *Sambucus Nigra Flower Extract, *Momordica Charantia Fruit Extract, *Leontopodium Alpinum Extract, *Epigallocatechin Gallate, Glutathione, Madecassoside, Cetearyl Olivate, Sorbitan Olivate, Cetearyl Alcohol, Caprylic/Capric Triglyceride, Caprylyl Glycol, Tropolone, Dimethicone, Carbomer, Xanthan Gum, Tromethamine *Mark : N.O.I.P 68%"
   },
   {
-    "name": "Luminous Hydration Cream",
-    "slug": "luminous-hydration-cream",
-    "price": 65.00,
-    "details": "A rich, luxurious moisturizer that provides intense hydration and restores luminosity to your skin. Enriched with botanical extracts and essential vitamins, this cream deeply moisturizes while improving skin elasticity and tone. Perfect for dry and sensitive skin.",
-    "image": "/assets/product-2.png",
-    "productQuantity": "50ML",
-    "howToApply": [
-      "Step 1: After cleansing, apply a generous amount of cream to your face and neck.",
-      "Step 2: Gently massage the product into your skin using upward strokes.",
-      "Step 3: Use daily, morning and night, for best results."
+    "name": "RYO Hair Strength Expert Care Shampoo ",
+    "slug": "ryo-hair-strength-expert-care-shampoo",
+    "price": 5121.1,
+    "reviewRating": 4.2,
+    "reviewCount": 312,
+    "brand": "korean",
+    "quantityInStock": 5,
+    "shortDescription": "A specialized technology to combine Ginseng extract from whole ginseng(root, stem, leaf, fruit) harvested in June when its active ingredients reach their peak. The leaf and stem(above the ground) have over seven times higher key ingredients providing nourishment to the scalp and hair than the roots(underground)",
+    "details": [
+      "A specialized technology to combine Ginseng extract from whole ginseng(root, stem, leaf, fruit) harvested in June when its active ingredients reach their peak. The leaf and stem(above the ground) have over seven times higher key ingredients providing nourishment to the scalp and hair than the roots(underground)",
+      "EXCESS SEBUM CARE- Combination of natural ingredients helps remove itching due to dryness and cleanses the scalp of excessive sebum",
+      "CLEAN AND REFRESHING FINISH - A rich and dense foam cools and refreshes the scalp",
+      "SCALP RESEARCH CENTER WITH 47 YEARS OF HISTORY Research story on scalp & hair treatment technology - We provide scalp & hair treatment solutions suitable for Asians through extensive research and development on Korean Ginseng and oriental herbs, aided by an immense volume of data collected over the years",
+      "Formulated without 5 ingrdients FOR YOUR DAILY SHAMPOO NEEDS - Animal-derived ingredients, Polyacrylamide, Triethanolamine, Synthetic colorant, Mineral oil"
     ],
-    "ingredients": "WATER (AQUA), GLYCERIN, BUTYROSPERMUM PARKII (SHEA) BUTTER, SQUALANE, GLYCERYL STEARATE SE, CAMELLIA SINENSIS (GREEN TEA) LEAF EXTRACT, PANTHENOL, ALOE BARBADENSIS LEAF EXTRACT, TOCOPHEROL (VITAMIN E), ASCORBYL PALMITATE, HELIANTHUS ANNUUS (SUNFLOWER) SEED OIL, ROSA DAMASCENA FLOWER OIL, CITRONELLOL, GERANIOL"
+    "image": "/assets/ryo-hair-strength-expert-care-shampoo.webp",
+    "productQuantity": "470ML",
+    "howToApply": [
+      "Wet Hair: Thoroughly wet your hair and scalp with lukewarm water.",
+      "Apply Shampoo: Dispense a generous amount of shampoo into your hands and lather.",
+      "Massage: Gently massage the shampoo into your scalp and hair, focusing on oily areas and dry, itchy spots.",
+      "Rinse: Rinse thoroughly with water, ensuring all product is washed out.",
+      "Repeat if Necessary: For best results, repeat the process if your scalp needs extra care."
+    ],
+    "ingredients": "WATER / AQUA / EAU, SODIUM LAURETH SULFATE, AMMONIUM LAURYL SULFATE, GLYCERIN, COCAMIDE METHYL MEA, FRAGRANCE / PARFUM, DISODIUM LAURETH SULFOSUCCINATE, LAURYL HYDROXYSULTAINE, CAFFEINE, PPG-3 CAPRYLYL ETHER, ALCOHOL DENAT., PHENOXYETHANOL, SODIUM BENZOATE, CETYL ALCOHOL, MENTHOL, GUAR HYDROXYPROPYLTRIMONIUM CHLORIDE, CITRIC ACID, SODIUM SALICYLATE, CAPRYLIC/CAPRIC TRIGLYCERIDE, TRIHYDROXYSTEARIN, SODIUM CITRATE, DICAPRYLYL ETHER, TETRASODIUM EDTA, BUTYLENE GLYCOL, MALT EXTRACT, DISODIUM EDTA, LINALOOL, PEG-45M, GLYCERYL STEARATE, MENTHA ARVENSIS LEAF EXTRACT, BENZYL SALICYLATE, HEXYL CINNAMAL, BENZYL BENZOATE, GERANIOL, ALPHA-ISOMETHYL IONONE, HYDROLYZED CORN STARCH, CAPRYLYL GLYCOL, PINUS DENSIFLORA LEAF EXTRACT, ALCOHOL, 1,2-HEXANEDIOL, DEHYDROACETIC ACID, PANAX GINSENG EXTRACT, PANAX GINSENG ROOT EXTRACT, SILICA, ZINGIBER OFFICINALE (GINGER) ROOT EXTRACT, ETHYLHEXYLGLYCERIN, TOCOPHEROL, ORYZA SATIVA (RICE) EXTRACT, IMPERATA CYLINDRICA ROOT EXTRACT, SCUTELLARIA BAICALENSIS ROOT EXTRACT, SESAMUM INDICUM (SESAME) SEED EXTRACT, LONICERA JAPONICA (HONEYSUCKLE) FLOWER EXTRACT, CALENDULA OFFICINALIS FLOWER EXTRACT, TRIBULUS TERRESTRIS FRUIT EXTRACT, CAMELLIA JAPONICA SEED OIL, CAMELLIA SINENSIS SEED OIL, PEG-150 PENTAERYTHRITYL TETRASTEARATE, PPG-2 HYDROXYETHYL COCAMIDE, POLYGONUM MULTIFLORUM ROOT EXTRACT"
   },
   {
-    "name": "Revitalizing Eye Cream",
-    "slug": "revitalizing-eye-cream",
-    "price": 38.00,
-    "details": "Target fine lines, puffiness, and dark circles with this revitalizing eye cream. Formulated with caffeine and vitamin C, it helps to brighten and firm the delicate skin around your eyes, reducing the signs of fatigue and aging. The lightweight texture absorbs quickly for a refreshed look.",
-    "image": "/assets/product-3.png",
-    "productQuantity": "15ML",
-    "howToApply": [
-      "Step 1: Gently pat a small amount around the eye area using your ring finger.",
-      "Step 2: Use morning and evening for optimal results.",
-      "Step 3: Avoid direct contact with the eyes."
+    "name": "ROHTO MENTHOLATUM Melano CC Vitamin C Essence",
+    "slug": "rohto-mentholatum-melano-cc-vitamin-c-essence",
+    "price": 7055,
+    "reviewRating": 4,
+    "reviewCount": 1,
+    "brand": "japanese",
+    "quantityInStock": 5,
+    "shortDescription": "Named as Japan’s number one serum, this powerful, lightweight brightening product contains Vitamin C, Vitamin E derivatives, and Alpinia Seed Extract that inhabit melanin production, fade dark stops, and effectively tone up skin. Infused with dipotassium glycyrrhizinate, the serum also conditions the skin while providing a soothing and hydrating effect. The...",
+    "details": [
+      "Named as Japan’s number one serum, this powerful, lightweight brightening product contains Vitamin C, Vitamin E derivatives, and Alpinia Seed Extract that inhabit melanin production, fade dark stops, and effectively tone up skin. Infused with dipotassium glycyrrhizinate, the serum also conditions the skin while providing a soothing and hydrating effect. The easy-to-absorb formula penetrates deeply into the skin without any greasy residue. Comes in a drop-type tube that makes it easy to take and apply the right portion.",
+      "Note: even though the name says 'essence', this is actually a serum."
     ],
-    "ingredients": "WATER (AQUA), BUTYLENE GLYCOL, GLYCERIN, CAFFEINE, SODIUM HYALURONATE, ASCORBIC ACID (VITAMIN C), TOCOPHERYL ACETATE (VITAMIN E), NIACINAMIDE, PANTHENOL, CHAMOMILLA RECUTITA (MATRICARIA) FLOWER EXTRACT, CENTELLA ASIATICA EXTRACT, PHENOXYETHANOL, CARBOMER, XANTHAN GUM, ETHYLHEXYLGLYCERIN, SODIUM HYDROXIDE"
+    "image": "/assets/rohto-mentholatum-melano-cc-vitamin-c-essence.webp",
+    "productQuantity": "20ML",
+    "howToApply": [
+      "Use after cleansing and toner. ",
+      "Apply an appropriate amount on the skin and gently spread with fingers."
+    ],
+    "ingredients": " Ascorbic Acid, Tocopherol Acetate, Dipotassium Glycyrrhizinate, Isopropylmethylphenol, Vitamin C Tetraisopalmitate, Ethoxydiglycol, Alpinia Katsumadai Seed Extract (Alpinia White), BG, Edetate, Viscosity Modifier, Fragrance"
   },
   {
-    "name": "Purifying Clay Mask",
-    "slug": "purifying-clay-mask",
-    "price": 28.00,
-    "details": "Detoxify and purify your skin with this mineral-rich clay mask. It draws out impurities and excess oil while replenishing your skin with essential nutrients. Infused with kaolin clay and aloe vera, this mask leaves your skin feeling clean, refreshed, and balanced.",
-    "image": "/assets/product-10.png",
-    "productQuantity": "60ML",
-    "howToApply": [
-      "Step 1: Apply an even layer to clean, dry skin, avoiding the eye area.",
-      "Step 2: Leave on for 10-15 minutes until the mask dries.",
-      "Step 3: Rinse thoroughly with warm water and pat your skin dry.",
-      "Step 4: Use 2-3 times a week for best results."
+    "name": "Hada Labo Gokujun Premium Hyaluronic Solution",
+    "slug": "hada-labo-gokujun-premium-hyaluronic-solution",
+    "price": 6220.85,
+    "reviewRating": 4.6,
+    "reviewCount": 3683,
+    "brand": "japanese",
+    "quantityInStock": 5,
+    "shortDescription": "Hada Labo Gokujyun Premium Lotion instantly hydrates your skin and helps to preserve the optimum moisture balance.",
+    "details": [
+      "Hada Labo Gokujyun Premium Lotion instantly hydrates your skin and helps to preserve the optimum moisture balance.",
+      "This moisturizing Japanese lotion features an ultra -concentrated blend of 7 types of hyaluronic acid to help replenish skin and lock-in moisture. It also helps to improve dry and dehydrated skin, leaving it feeling significantly softer, supple, and silky-smooth.",
+      "A well-known Japanese beauty brand known for its high-quality skincare products at an affordable price, this Hada Labo premium product is already popular among beauty bloggers and Youtubers.",
+      "Ideal for individuals with dry and sensitive skin, the Hada Labo hyaluronic acid is free from fragrance, oil, alcohol, and colorants, meaning it won’t cause your skin to break out.",
+      "Our customers love the way this Hada Labo Premium product makes their skin feel super hydrated and smooth without causing irritation."
     ],
-    "ingredients": "WATER (AQUA), KAOLIN, BENTONITE, GLYCERIN, ALOE BARBADENSIS LEAF JUICE, PHENOXYETHANOL, ETHYLHEXYLGLYCERIN, CAMELLIA SINENSIS (GREEN TEA) LEAF EXTRACT, ROSMARINUS OFFICINALIS (ROSEMARY) LEAF EXTRACT, TOCOPHEROL (VITAMIN E)"
+    "image": "/assets/hada-labo-gokujun-premium-hyaluronic-solution.jpg",
+    "productQuantity": "170ML",
+    "howToApply": [
+      "After removing any makeup and cleansing with the Hada Labo Gokujyun Face Wash, pour a nickel-size amount of lotion on your palm and rub between your hands to warm.",
+      "Gently pat onto your face and neck until it is thoroughly absorbed. Wait until the product is fully absorbed to apply any additional moisturizers or makeup.",
+      "Use twice a day after washing the face."
+    ],
+    "ingredients": "Water, BG, Hydroxyethy urea, Penthylene glycol, PPG-10 Methyl glucose ether, DPG, Diglycerin, Sodium hyaluronate*, Hydrolyzed hyaluronic acid*(Nano-sized hyaluronic acid), Sodium Acetylated Hyaluronate*(Super hyaluronic acid), Hydroxypropyltrimonium hyaluronate*(Absorbable hyaluronic acid), Sodium hyaluronate crosspolymer*(3D hyaluronic acid), Lactococcus/Hyaluronic acid ferment filtrate*(Fermented hyaluronic acid), Hydrolyzed sodium hyaluronate*(Penetrating** hyaluronic acid), Aphanothece sacrum polysaccharides(Sacran®), Hydrogenated starch hydrolysate, Glycosyl trehalose, Sorbitol, Triethyl citrate, PEG-32, Carbomer, PEG-75, Disodium succinate, Propanediol, Diethoxyethyl succinate, Potassium hydroxide, Succinic acid, EDTA-2Na, Polyquaternium-51, Caprylhydroxamic acid, Hydroxyethyl cellulose, Xanthan gum, Phenoxyethanol"
   },
   {
-    "name": "Soothing Face Mist",
-    "slug": "soothing-face-mist",
-    "price": 22.00,
-    "details": "Refresh and hydrate your skin with this calming face mist, enriched with rose water and chamomile. This mist instantly soothes irritated skin and provides a dewy glow, perfect for use throughout the day to keep your skin looking and feeling fresh.",
-    "image": "/assets/product-4.png",
-    "productQuantity": "100ML",
-    "howToApply": [
-      "Step 1: Hold the bottle about 10 inches away from your face.",
-      "Step 2: Close your eyes and spritz evenly across your face.",
-      "Step 3: Use anytime your skin needs a boost of hydration."
+    "name": "Moisturizing Hydrating Japanese Body & Skin Toning Lotion",
+    "slug": "moisturizing-hydrating-japanese-body-&-skin-toning-lotion",
+    "price": 7050.85,
+    "reviewRating": 4.4,
+    "reviewCount": 7714,
+    "brand": "japanese",
+    "quantityInStock": 5,
+    "shortDescription": "Kikumasamune High Moist Lotion contains Japanese sake, ceramide to highly moisturize, soothe and tone your skin. In addition, arbutin is also added to the formula for smoothing the skin",
+    "details": [
+      "Kikumasamune High Moist Lotion contains Japanese sake, ceramide to highly moisturize, soothe and tone your skin. In addition, arbutin is also added to the formula for smoothing the skin",
+      "With this large 500 ml bottle, it can be used on your entire body, not just your face! You can also apply it to cosmetic cotton and use it as a face mask. This “High Moisture” version is is extra moisturizing and ideal for dryer skin types",
+      "This sake lotion contains the same amount of amino acids as an entire bottle of Japanese sake. It includes placenta extract and arbutin for moisturizing, as well as ultra-moisturizing ceramide which decreases as we age.",
+      "The sake used to create this Japanese skin care lotion is high quality Junmai Ginjo sake from Kikumasamune brewery. Sake is packed with many amino acids which are good for the skin.",
+      "This skincare lotion is transparent yet very moisturizing so suitable for dry and rough skin. Large size and easy-to-use pump bottle to use it both on face and body."
     ],
-    "ingredients": "WATER (AQUA), ROSA DAMASCENA FLOWER WATER, CHAMOMILLA RECUTITA (MATRICARIA) FLOWER EXTRACT, GLYCERIN, ALOE BARBADENSIS LEAF JUICE, PHENOXYETHANOL, ETHYLHEXYLGLYCERIN, CITRIC ACID"
-  },
-  {
-    "name": "Rejuvenating Night Cream",
-    "slug": "rejuvenating-night-cream",
-    "price": 52.00,
-    "details": "Wake up to smoother, firmer skin with this rich night cream. Formulated with retinol and peptides, it works overnight to boost collagen production and reduce the appearance of fine lines and wrinkles. The nourishing blend of oils and vitamins helps repair and restore your skin as you sleep.",
-    "image": "/assets/product-6.png",
-    "productQuantity": "50ML",
+    "image": "/assets/moisturizing-hydrating-japanese-body-&-skin-toning-lotion.jpg",
+    "productQuantity": "500ML",
     "howToApply": [
-      "Step 1: After cleansing, apply a generous layer of the cream to your face and neck.",
-      "Step 2: Massage gently in upward motions and leave on overnight."
+      "Cleanse Skin: Start with clean, dry skin for optimal absorption.",
+      "Apply Lotion: Dispense an adequate amount of lotion into your hands.",
+      "Massage: Gently massage the lotion onto your body in circular motions, focusing on areas needing hydration and toning.",
+      "Let Absorb: Allow the lotion to fully absorb into your skin before dressing.",
+      "Use Daily: For best results, apply daily after showering or whenever your skin feels dry."
     ],
-    "ingredients": "WATER (AQUA), GLYCERIN, RETINOL, PALMITOYL TRIPEPTIDE-1, JOJOBA OIL, ALOE VERA LEAF JUICE, SQUALANE, PHENOXYETHANOL, ETHYLHEXYLGLYCERIN, NIACINAMIDE, TOCOPHEROL (VITAMIN E)"
-  },
-  {
-    "name": "Brightening Vitamin C Serum",
-    "slug": "brightening-vitamin-c-serum",
-    "price": 48.00,
-    "details": "Brighten your complexion with this powerful Vitamin C serum. It helps reduce the appearance of dark spots and hyperpigmentation while promoting a more even skin tone. Packed with antioxidants, it protects your skin from environmental stressors and boosts radiance.",
-    "image": "/assets/product-7.png",
-    "productQuantity": "30ML",
-    "howToApply": [
-      "Step 1: Apply a few drops to cleansed skin, avoiding the eye area.",
-      "Step 2: Follow with moisturizer and sunscreen in the morning."
-    ],
-    "ingredients": "WATER (AQUA), ASCORBIC ACID (VITAMIN C), GLYCERIN, NIACINAMIDE, SODIUM HYALURONATE, ALOE BARBADENSIS LEAF JUICE, PHENOXYETHANOL, CITRIC ACID"
-  },
-  {
-    "name": "Nourishing Lip Balm",
-    "slug": "nourishing-lip-balm",
-    "price": 12.00,
-    "details": "Keep your lips soft and smooth with this nourishing lip balm. Made with shea butter and jojoba oil, it provides long-lasting hydration and protection against dryness. The lightweight formula absorbs quickly, leaving your lips feeling moisturized and cared for.",
-    "image": "/assets/product-8.png",
-    "productQuantity": "10G",
-    "howToApply": [
-      "Step 1: Apply a small amount to your lips as needed throughout the day.",
-      "Step 2: Reapply before bed for overnight hydration."
-    ],
-    "ingredients": "SHEA BUTTER, JOJOBA OIL, BEESWAX, GLYCERIN, VITAMIN E, ALOE VERA, COCONUT OIL"
-  },
-  {
-    "name": "Detoxifying Charcoal Cleanser",
-    "slug": "detoxifying-charcoal-cleanser",
-    "price": 26.00,
-    "details": "Purify your skin with this detoxifying charcoal cleanser. It gently removes impurities and excess oil, leaving your skin feeling refreshed and balanced. Perfect for oily and combination skin types, it helps to unclog pores and prevent breakouts.",
-    "image": "/assets/product-9.png",
-    "productQuantity": "120ML",
-    "howToApply": [
-      "Step 1: Apply a small amount to damp skin and massage gently.",
-      "Step 2: Rinse thoroughly with lukewarm water and pat dry.",
-      "Step 3: Use morning and night for a clear complexion."
-    ],
-    "ingredients": "WATER (AQUA), ACTIVATED CHARCOAL, GLYCERIN, SALICYLIC ACID, ALOE VERA, TEA TREE OIL, COCONUT OIL"
-  },
-  {
-    "name": "Firming Body Lotion",
-    "slug": "firming-body-lotion",
-    "price": 34.00,
-    "details": "Tone and firm your skin with this nourishing body lotion. Enriched with caffeine and shea butter, it helps improve skin elasticity and smoothness while deeply hydrating. Ideal for daily use, it leaves your skin feeling soft, supple, and rejuvenated.",
-    "image": "/assets/product-10.png",
-    "productQuantity": "200ML",
-    "howToApply": [
-      "Step 1: Apply generously to clean skin, focusing on areas prone to dryness.",
-      "Step 2: Massage in circular motions until fully absorbed."
-    ],
-    "ingredients": "WATER (AQUA), CAFFEINE, SHEA BUTTER, GLYCERIN, ALOE VERA, COCONUT OIL, VITAMIN E, PANTHENOL"
-  },
-  {
-    "name": "Anti-Aging Retinol Serum",
-    "slug": "anti-aging-retinol-serum",
-    "price": 58.00,
-    "details": "Reduce the appearance of fine lines and wrinkles with this potent retinol serum. Designed to boost collagen production and enhance skin texture, it helps to minimize signs of aging and promote a smoother, more youthful complexion.",
-    "image": "/assets/product-11.png",
-    "productQuantity": "30ML",
-    "howToApply": [
-      "Step 1: Apply at night after cleansing, avoiding the eye area.",
-      "Step 2: Follow with a moisturizer to lock in hydration."
-    ],
-    "ingredients": "WATER (AQUA), RETINOL, GLYCERIN, SODIUM HYALURONATE, VITAMIN E, ALOE VERA, JOJOBA OIL"
+    "ingredients": ""
   }
 ]

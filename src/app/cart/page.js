@@ -21,9 +21,16 @@ import { useGlobal } from "@/context/globalContext";
 import { IndianRupee, Minus, Plus, X } from "lucide-react";
 import Image from "next/image";
 import { Input } from "@/components/ui/input";
+import { formatToINR } from "@/lib/utils";
 
 export default function Cart() {
-  const { totalPrice, cartItems, addItemToCart, clearCart, removeItemFromCart } = useGlobal();
+  const {
+    totalPrice,
+    cartItems,
+    addItemToCart,
+    clearCart,
+    removeItemFromCart,
+  } = useGlobal();
   return (
     <section className="w-full py-8 md:py-24 lg:py-32 bg-muted">
       <div className="container px-4 md:px-6">
@@ -77,14 +84,34 @@ export default function Cart() {
                         <TableCell>
                           <p className="flex items-center text-sm">
                             <IndianRupee className="w-4 h-4" />
-                            {item.price}
+                            {formatToINR(item.price)}
                           </p>
                         </TableCell>
                         <TableCell>
                           <div className="flex w-[100px] items-center rounded-full border border-zinc-700">
-                            <Button size="icon" variant="ghost" className="pl-1 hover:bg-transparent" onClick={() => addItemToCart(item, -1)}><Minus className="w-4 h-4"/></Button>
-                            <Input className="w-[30px] p-[5px] bg-transparent h-4 border-none" value={item.quantity} readonly/>
-                            <Button size="icon" variant="ghost" className="pr-1 hover:bg-transparent" onClick={() => addItemToCart(item)}><Plus className="w-4 h-4"/></Button>
+                            <Button
+                              size="icon"
+                              variant="ghost"
+                              className="pl-1 hover:bg-transparent"
+                              disabled={item.quantity<=1}
+                              onClick={() => addItemToCart(item, -1)}
+                            >
+                              <Minus className="w-4 h-4" />
+                            </Button>
+                            <Input
+                              className="w-[30px] p-[5px] bg-transparent h-4 border-none"
+                              value={item.quantity}
+                              readonly
+                            />
+                            <Button
+                              size="icon"
+                              variant="ghost"
+                              className="pr-1 hover:bg-transparent"
+                              disabled={item.quantity>=2}
+                              onClick={() => addItemToCart(item)}
+                            >
+                              <Plus className="w-4 h-4" />
+                            </Button>
                           </div>
                         </TableCell>
                         <TableCell className="text-right text-zinc-700">
@@ -102,7 +129,9 @@ export default function Cart() {
                   </TableBody>
                 </Table>
                 <div className="mt-4 text-right">
-                  <Button variant="outline" onClick={clearCart}>Clear Cart</Button>
+                  <Button variant="outline" onClick={clearCart}>
+                    Clear Cart
+                  </Button>
                 </div>
               </>
             ) : (
@@ -115,10 +144,11 @@ export default function Cart() {
             <Card className="rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-all duration-200">
               <CardHeader>
                 <h2 className="flex justify-between pb-2 border-b border-zinc-200 text-xl transition-all duration-200">
-                  <span>
-                  Subtotal
+                  <span>Subtotal</span>
+                  <span className="flex items-center gap-2 text-sm">
+                    <IndianRupee className="w-4 h-4" />
+                    {formatToINR(totalPrice)}
                   </span>
-                  <span className="flex items-center gap-2 text-sm"><IndianRupee className="w-4 h-4"/>{totalPrice}</span>
                 </h2>
               </CardHeader>
               <CardContent className="p-4 text-center"></CardContent>
@@ -127,7 +157,7 @@ export default function Cart() {
                   <span>Total</span>
                   <span className="flex items-center gap-2 text-xl">
                     <IndianRupee className="w-4 h-4" />
-                    {totalPrice}
+                    {formatToINR(totalPrice)}
                   </span>
                 </div>
                 <Button>Proceed to Checkout</Button>
