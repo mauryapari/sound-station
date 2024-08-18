@@ -30,6 +30,7 @@ export default function Cart() {
     addItemToCart,
     clearCart,
     removeItemFromCart,
+    checkoutPrice
   } = useGlobal();
   return (
     <section className="w-full py-8 md:py-24 lg:py-32 bg-muted">
@@ -151,13 +152,28 @@ export default function Cart() {
                   </span>
                 </h2>
               </CardHeader>
-              <CardContent className="p-4 text-center"></CardContent>
+              <CardContent className="p-4 px-6 text-center text-xs">
+                <div className="flex justify-between">
+                  <span>Shipping Charges</span>
+                  <span className="flex items-center gap-2 mb-2">
+                    <IndianRupee className="w-4 h-4" />
+                    {totalPrice <= 2000 ? formatToINR(100): <span><span className="text-zinc-400 line-through">100</span> 0</span> }
+                  </span>
+                </div>
+                <div className="flex justify-between text-xs">
+                  <span>Convinence Fee</span>
+                  <span className="flex items-center gap-2">
+                    <IndianRupee className="w-4 h-4" />
+                    {formatToINR(60)}
+                  </span>
+                </div>
+              </CardContent>
               <CardFooter className="flex-col items-stretch">
                 <div className="flex justify-between mb-4 pt-2 border-t border-zinc-200">
                   <span>Total</span>
                   <span className="flex items-center gap-2 text-xl">
                     <IndianRupee className="w-4 h-4" />
-                    {formatToINR(totalPrice)}
+                    {formatToINR(checkoutPrice)}
                   </span>
                 </div>
                 <Button>Proceed to Checkout</Button>

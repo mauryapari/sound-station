@@ -65,8 +65,12 @@ export const GlobalProvider = ({ children }) => {
     return cartItems.reduce((total, item) => total + item.quantity * item.price, 0.00);
   }, [cartItems]);
 
+  const checkoutPrice = useMemo(() => {
+    return totalPrice <= 2000 ? totalPrice + 160 : totalPrice + 60
+  }, [totalPrice])
+
   return (
-    <GlobalContext.Provider value={{cartItems, totalQuantity, totalPrice, wishlist , addItemToCart, addItemToWishlist, removeItemFromCart, removeItemFromWishList, clearCart, clearWishlist}}>
+    <GlobalContext.Provider value={{cartItems, totalQuantity, totalPrice, checkoutPrice ,wishlist , addItemToCart, addItemToWishlist, removeItemFromCart, removeItemFromWishList, clearCart, clearWishlist}}>
       {children}
     </GlobalContext.Provider>
   );

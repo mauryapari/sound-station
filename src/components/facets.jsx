@@ -79,7 +79,7 @@ export default function Facets(props) {
             ))}
           </div>
         </div>
-        <div>
+        {/* <div>
           <h3 className="text-base font-semibold mb-2">Price Range</h3>
           <div className="grid gap-2">
             {prices.map((price) => (
@@ -95,7 +95,7 @@ export default function Facets(props) {
               </div>
             ))}
           </div>
-        </div>
+        </div> */}
       </div>
     </aside>
   );

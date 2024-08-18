@@ -30,7 +30,8 @@ export default function PdpProduct(props) {
         <p className="text-2xl font-semibold text-zinc-900 dark:text-zinc-50">
           ₹ {formatToINR(product?.price)}
         </p>
-        <p className="text-base text-zinc-500 dark:text-zinc-400">
+        <p className="italic font-serif">(Inclusive of 18% GST)</p>
+        <p className="mt-2 text-base text-zinc-500 dark:text-zinc-400">
           {product?.shortDescription}
         </p>
         <div className="flex gap-6">
