@@ -37,8 +37,8 @@ export default function Cart() {
         <div className="mb-10">
           <h1 className="font-sans text-5xl">Shopping Cart</h1>
         </div>
-        <div className="flex gap-8">
-          <div className="basis-9/12">
+        <div className="flex flex-col sm:flex-row gap-8">
+          <div className="sm:basis-9/12">
             <div className="py-4">
               <p className="text-sm text-muted-foreground mb-1">
                 {totalPrice < 2000
@@ -140,7 +140,7 @@ export default function Cart() {
               </div>
             )}
           </div>
-          <div className="basis-3/12">
+          <div className="sm:basis-3/12">
             <Card className="rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-all duration-200">
               <CardHeader>
                 <h2 className="flex justify-between pb-2 border-b border-zinc-200 text-xl transition-all duration-200">
