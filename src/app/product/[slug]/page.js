@@ -22,8 +22,8 @@ export default function Product(props) {
             <AccordionItem  value="item-1">
               <AccordionTrigger>Product Details</AccordionTrigger>
               <AccordionContent className="leading-8">
-                {product?.details.map((item) => (
-                  <p className="mb-4 text-sm">{item}</p>
+                {product?.details.map((item, index) => (
+                  <p key={index} className="mb-4 text-sm">{item}</p>
                 ))}
               </AccordionContent>
             </AccordionItem>
