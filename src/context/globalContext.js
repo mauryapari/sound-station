@@ -13,7 +13,7 @@ export const GlobalProvider = ({ children }) => {
   const addItemToCart = (item, val=1) => {
     setCartItems((prevItems) => {
       const existingItem = prevItems.find((i) => i.slug === item.slug);
-      if (existingItem?.quantity<2) {
+      if (existingItem?.quantity<2 || val === -1) {
         toast.success(`${existingItem.name} quantity increased in the cart.`);
         return prevItems.map((i) =>
           i.slug === item.slug ? { ...i, quantity: i.quantity + val } : i

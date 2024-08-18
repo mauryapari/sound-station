@@ -29,7 +29,7 @@ export function HomeDialog() {
   };
 
   return (
-   isDialogVisible &&  <Dialog open={isDialogVisible} onOpenChange={handleCloseDialog}>
+   isDialogVisible &&  <Dialog open={isDialogVisible} onOpenChange={handleCloseDialog} className="animate-fadeIn">
       <DialogContent className="sm:max-w-[425px]">
         <DialogHeader>
           <DialogTitle className="leading-7">
