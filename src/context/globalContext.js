@@ -14,7 +14,7 @@ export const GlobalProvider = ({ children }) => {
     setCartItems((prevItems) => {
       const existingItem = prevItems.find((i) => i.slug === item.slug);
       if (existingItem?.quantity<2 || val === -1) {
-        toast.success(`${existingItem.name} quantity increased in the cart.`);
+        toast.success(`${existingItem.name} quantity ${val === 1 ? 'increased ': 'decreased '} in the cart.`);
         return prevItems.map((i) =>
           i.slug === item.slug ? { ...i, quantity: i.quantity + val } : i
         );
