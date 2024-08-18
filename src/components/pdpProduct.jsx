@@ -16,9 +16,9 @@ export default function PdpProduct(props) {
         width="500"
         height="500"
         alt="Sneaker Image"
-        className="aspect-[1/1] object-cover object-center"
+        className="aspect-[1/1] object-cover object-center animate-slideInFromLeft"
       />
-      <div className="basis-1/2 space-y-6">
+      <div className="basis-1/2 space-y-6 animate-slideUpFromBottom">
         <h1 className="text-4xl font-bold tracking-tighter">{product?.name}</h1>
         <div className="flex space-x-1">
           <Badge variant="outline" className="bg-blue-300 text-blue-500">{product?.quantityInStock} in Stock</Badge>

@@ -47,7 +47,7 @@ export default function PlpPage() {
           <Facets onFilterChange={handleFilterChange} />
         </div>
         {matchedProducts.length > 0 ? (
-          <div className="mx-auto grid max-w-5xl grid-cols-1 gap-6 py-12 sm:grid-cols-2 md:grid-cols-3 lg:gap-12">
+          <div className="mx-auto grid max-w-5xl grid-cols-1 gap-6 py-12 sm:grid-cols-2 md:grid-cols-3 lg:gap-12 animate-slideUpFromBottom">
             {matchedProducts.map((item) => (
               <div
                 key={item.slug}

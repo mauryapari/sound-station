@@ -1,10 +1,17 @@
+"use client";
 import Image from "next/image";
 import Link from "next/link";
 import product from "../../public/products.json";
 import { Contact, DollarSign, MoveRight, Package } from "lucide-react";
 import { HomeDialog } from "@/components/homeDialog";
+import { useInView, useIsVisible } from "@/hooks/useInView";
+import { useRef } from "react";
 
 export default function Home() {
+  const ref1 = useRef();
+  const ref2 = useRef();
+  const isVisible1 = useIsVisible(ref1);
+  const isVisible2 = useIsVisible(ref2);
   return (
     <>
       <main className="flex-1">
@@ -12,7 +19,7 @@ export default function Home() {
           <div className="container px-4 md:px-6">
             <div className="grid gap-6 lg:grid-cols-[1fr_500px] lg:gap-12 xl:grid-cols-[1fr_600px]">
               <div className="flex flex-col justify-center space-y-4">
-                <div>
+                <div className="animate-slideInFromLeft">
                   <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/snug">
                     Be Your Kind <br /> of Beauty
                   </h1>
@@ -37,13 +44,18 @@ export default function Home() {
                 width="600"
                 height="400"
                 alt="Headphones"
-                // className="mx-auto aspect-[3/2] overflow-hidden rounded-xl object-cover object-center sm:w-full"
+                className="animate-slideUpFromBottom"
               />
             </div>
           </div>
         </section>
         <section className="w-full py-12 md:py-24 lg:py-32">
-          <div className="container px-4 md:px-6">
+          <div
+            ref={ref1}
+            className={`container px-4 md:px-6 transition-opacity ease-in duration-700 ${
+              isVisible1 ? "opacity-100" : "opacity-0"
+            }`}
+          >
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
               <div className="space-y-2">
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
@@ -89,7 +101,7 @@ export default function Home() {
           </div>
         </section>
         <section className="w-full py-12 md:py-24 lg:py-32 bg-muted">
-          <div className="container px-4 md:px-6">
+          <div ref={ref2} className={`container px-4 md:px-6 transition-opacity ease-in duration-700 ${isVisible2 ? "opacity-100" : "opacity-0"}`}>
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
               <div className="space-y-2">
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
