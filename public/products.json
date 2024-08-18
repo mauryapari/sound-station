@@ -138,7 +138,7 @@
       "This is a gentle and nourishing skincare solution specifically designed for sensitive and dry skin. Its patented ceramide capsule contains a unique formula that helps protect the skin from external factors while deeply moisturizing it from within. The ceramide Skim Complex is a powerful ingredient that delivers enriched ceramide to the deepest layers of the skin, helping to strengthen the skin's barrier and prevent damage. In addition, the cream contains a lotus fermented soybean extract that calms and soothes sensitive skin, leaving it feeling healthy and refreshed. The cream has a soft, moisturizing texture that is gentle on the skin and absorbs quickly without leaving a sticky residue. It is also free from harmful ingredients, with a 7 free system that is free from artificial flavors, animal-derived raw materials, mineral oil, tar color, PEG surfactants, triethanolamine, and imidazolidinyl urea. This means that it is suitable for even the most sensitive skin, including babies.",
       "It is dermatologist tested and verified as hypoallergenic, making it a safe and effective solution for improving sensitive and dry skin. The fragrance-free formula is also clean and comfortable to use on a daily basis, providing a more reliable solution to sensitive skin care."
     ],
-    "image": "/assets/product-1.png",
+    "image": "/assets/illiyoon-ceramide-ato-concentrate-cream.jpg",
     "productQuantity": "200ML",
     "howToApply": [
       "Apply and appropriate amount along skin texture and gently pat to enhance absorption."
@@ -147,7 +147,7 @@
   },
   {
     "name": "Tranexamic Acid 10% Serum",
-    "slug": "tranexamic-acid-10%-serum",
+    "slug": "tranexamic-acid-10-serum",
     "price": 7034.25,
     "reviewRating": 4.1,
     "reviewCount": 21,
@@ -161,7 +161,7 @@
       "Antioxidant Defense: Harness the power of antioxidants like Epigallocatechin Gallate (EGCG) and Tocopheryl Acetate (Vitamin E) to protect your skin from environmental stressors and premature aging.",
       "Natural Botanical Ingredients: TT features a blend of botanical extracts, including Camellia Sinensis Leaf Extract, Sambucus Nigra Flower Extract, Momordica Charantia Fruit Extract, and Leontopodium Alpinum Extract, for a holistic approach to skincare."
     ],
-    "image": "/assets/product-1.png",
+    "image": "/assets/tranexamic-acid-10-serum.jpg",
     "productQuantity": "30ML",
     "howToApply": [
       "Cleanse your face and neck thoroughly.",
@@ -247,7 +247,7 @@
   },
   {
     "name": "Moisturizing Hydrating Japanese Body & Skin Toning Lotion",
-    "slug": "moisturizing-hydrating-japanese-body-&-skin-toning-lotion",
+    "slug": "moisturizing-hydrating-japanese-body-skin-toning-lotion",
     "price": 7050.85,
     "reviewRating": 4.4,
     "reviewCount": 7714,

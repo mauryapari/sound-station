@@ -21,17 +21,17 @@ export default function PdpProduct(props) {
       <div className="basis-1/2 space-y-6">
         <h1 className="text-4xl font-bold tracking-tighter">{product?.name}</h1>
         <div className="flex space-x-1">
-          <Badge variant="outline" className="bg-blue-300 text-blue-500">{product.quantityInStock} in Stock</Badge>
+          <Badge variant="outline" className="bg-blue-300 text-blue-500">{product?.quantityInStock} in Stock</Badge>
           <Rating
-            rating={product.reviewRating}
-            ratingCount={product.reviewCount}
+            rating={product?.reviewRating}
+            ratingCount={product?.reviewCount}
           />
         </div>
         <p className="text-2xl font-semibold text-zinc-900 dark:text-zinc-50">
           ₹ {formatToINR(product?.price)}
         </p>
         <p className="text-base text-zinc-500 dark:text-zinc-400">
-          {product.shortDescription}
+          {product?.shortDescription}
         </p>
         <div className="flex gap-6">
           <Button
@@ -49,7 +49,7 @@ export default function PdpProduct(props) {
           </Button>
         </div>
         <p className="text-xs text-zinc-500 dark:text-zinc-400">
-          {formatToSentenceCase(product.ingredients).slice(0, 100)}
+          {formatToSentenceCase(product?.ingredients)?.slice(0, 100)}
           ...
         </p>
       </div>

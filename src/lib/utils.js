@@ -17,7 +17,7 @@ export function formatToSentenceCase (string) {
   var rg = /(^\w{1}|\.\s*\w{1})/gi;
   
   // Use replace with a callback function to capitalize the matched characters
-  return string.replace(rg, function (toReplace) {
+  return string?.replace(rg, function (toReplace) {
     return toReplace.toUpperCase();
   });
 };

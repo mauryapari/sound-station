@@ -22,7 +22,7 @@ export default function Product(props) {
             <AccordionItem  value="item-1">
               <AccordionTrigger>Product Details</AccordionTrigger>
               <AccordionContent className="leading-8">
-                {product.details.map((item) => (
+                {product?.details.map((item) => (
                   <p className="mb-4 text-sm">{item}</p>
                 ))}
               </AccordionContent>
@@ -30,7 +30,7 @@ export default function Product(props) {
             <AccordionItem value="item-2">
               <AccordionTrigger>How To Apply</AccordionTrigger>
               <AccordionContent>
-                {product.howToApply.map((item, index) => (
+                {product?.howToApply.map((item, index) => (
                   <p className="mb-4 ml-4 text-sm" key={index}>
                     {index+1}.  {item}
                   </p>
@@ -39,7 +39,7 @@ export default function Product(props) {
             </AccordionItem>
             <AccordionItem value="item-3">
               <AccordionTrigger>Ingidients</AccordionTrigger>
-              <AccordionContent>{formatToSentenceCase(product.ingredients)}</AccordionContent>
+              <AccordionContent>{formatToSentenceCase(product?.ingredients)}</AccordionContent>
             </AccordionItem>
           </Accordion>
         </div>
