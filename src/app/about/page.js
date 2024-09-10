@@ -16,7 +16,7 @@ export default function About() {
               <h1 className="text-2xl font-sans sm:text-5xl xl:text-6xl/snug">
                 Our Story
               </h1>
-              <p className="mt-12 w-[600px] mx-auto text-muted-foreground md:text-xl">
+              <p className="mt-12 lg:w-[600px] mx-auto text-muted-foreground md:text-xl">
                 Your one-stop destination for all things beauty. Whether
                 you&apos;re a skincare enthusiast, makeup lover, or simply
                 looking for the best products, we&apos;ve got everything you
@@ -24,12 +24,12 @@ export default function About() {
                 we&apos;re here to help you look and feel your best.
               </p>
 
-              <p className="mt-12 w-[600px] mx-auto text-muted-foreground md:text-xl">
+              <p className="mt-12 lg:w-[600px] mx-auto text-muted-foreground md:text-xl">
                 Our site is carefully curated and organized to make your
                 shopping experience effortless, allowing you to explore a wide
                 range of beauty products by brand, category, or skin type.
               </p>
-              <p className="mt-12 w-[600px] mx-auto text-muted-foreground md:text-xl">
+              <p className="mt-12 lg:w-[600px] mx-auto text-muted-foreground md:text-xl">
                 Our mission is to be your go-to source for all things
                 beauty—delivering valuable tips, expert product reviews, and
                 essential beauty information to enhance your routine. Have any

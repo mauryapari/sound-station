@@ -8,7 +8,7 @@ export default function Footer() {
       <div className="flex flex-col items-start gap-4">
         <Link href="#" className="flex items-center gap-2" prefetch={false}>
           <WavesIcon className="h-6 w-6" />
-          <span className="text-xl font-bold">Acme Inc</span>
+          <span className="text-xl font-bold">Glow Inc</span>
         </Link>
         <p className="text-muted-foreground">Crafting innovative solutions for a better tomorrow.</p>
       </div>

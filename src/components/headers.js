@@ -25,9 +25,9 @@ export default function Header() {
           <Link href="/" prefetch={false}>
             <div className="flex gap-2">
               <Waves className="h-6 w-6" />
-              <span>Beautya</span>
+              <span>Glow</span>
             </div>
-            <span className="sr-only">Beautya Inc</span>
+            <span className="sr-only">Glow Inc</span>
           </Link>
           <div className="grid gap-2 py-6">
             <Link
@@ -64,9 +64,9 @@ export default function Header() {
       <Link href="/" className="mr-6 hidden lg:flex" prefetch={false}>
         <div className="flex gap-2 items-center">
           <Waves className="h-6 w-6" />
-          <span className="text-xl">Beautya</span>
+          <span className="text-xl">Glow</span>
         </div>
-        <span className="sr-only">Beautya Inc</span>
+        <span className="sr-only">Glow Inc</span>
       </Link>
       <NavigationMenu className="hidden lg:flex">
         <NavigationMenuList>
